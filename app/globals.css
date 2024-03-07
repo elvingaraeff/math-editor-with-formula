@@ -100,9 +100,10 @@ body {
 }
 
 math-field {
-  height: 68px;
+  height: auto;
+  padding-right: 50px;
+    padding-left: 15px;
   border: 1px dashed rgb(226, 232, 240);
-  padding: 2px 12px;
   border-radius: 6px;
   outline: none;
   cursor: pointer;
