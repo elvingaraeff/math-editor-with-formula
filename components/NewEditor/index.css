@@ -1,0 +1,51 @@
+.app {
+  height: 100vh;
+}
+.ql-editor {
+  font-size: 16px;
+}
+@media (max-width: 743px) {
+  .ql-toolbar.ql-snow {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.ql-container.ql-snow {
+  font-size: 32px;
+}
+
+.ML__virtual-keyboard-toggle {
+  padding: unset;
+  margin-right: 0 !important;
+}
+
+.ql-tooltip.ql-editing.ql-flip {
+  display: none !important;
+}
+
+.katex {
+  margin: 0 10px;
+}
+.hidden {
+  display: none;
+}
+.ql-formula {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px dashed #fff;
+  cursor: pointer;
+}
+.ql-editor .ql-formula {
+  display: inline-block;
+}
+@media not (pointer: coarse) {
+  math-field::part(virtual-keyboard-toggle) {
+    position: absolute;
+    right: 25px;
+  }
+  math-field::part(menu-toggle) {
+    display: none;
+  }
+}
